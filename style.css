@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg_HjaiWVAs_9pOnCFtU5YJ0xAvkf8EYSpQDOZ8EywLg&s=10");
+  
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+#container{
+    height: 680px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    margin-left: 300px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 20px rgb(91, 183, 183);
+   
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+#header h2{
+    font-size: 28px;
+    font-weight: bolder;
+    color:white
+}
+#header h2:hover{
+    color:chartreuse
+}
+#show{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+}
+#rupees{
+    padding-left: 160px;
+}
+   
+#rupees label{
+    font-size: 1.6rem;
+}
+#rupees input{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none ;
+    outline: none;
+    
+}
+#first::placeholder{
+    color:white
+}
+#your{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#your h2{
+    color:white
+}
+#box1 h3{
+    color:white;
+    font-size: large;
+    height: 20px;
+}
+#written{
+    height: 380px;
+   
+  
+}
+#footer{
+    height: 210px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9px;
+
+}
+#up h3{
+    font-size: large;
+}
+#down1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#one{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#one input{
+    width: 100%; 
+    border-color: black;
+    height: 40px;
+}
+#two input{
+    width: 100%;
+    border-color: black;
+    height: 40px;
+}
+#one label{
+    font-size: 1.6rem;
+}
+#two{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#two label{
+    font-size: 1.6rem;
+}
+#one input::placeholder{
+    color:orange;
+    font-size: larger;
+    font-weight: 600;
+}
+#two input::placeholder{
+    color:orange;
+    font-size: larger;
+    font-weight: 600;
+}
+#down2{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+#three{
+    padding-left: 10px;
+}
+#button1{
+    width: 200px;
+    height: 60px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    cursor:pointer;
+}
+#button2{
+     width: 200px;
+    height: 60px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: red;
+    color:white;
+    cursor:pointer;
+}
+#three h3:hover{
+    color:crimson
+}
+#fourth h3:hover{
+    color:brown;
+}
